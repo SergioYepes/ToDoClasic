@@ -1,0 +1,49 @@
+.Container{
+    padding: 10px;
+    background-color:whitesmoke;
+    box-shadow: 3px 3px rgba(2, 39, 2, 0.45);
+}
+.Title{
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+}
+.formEdit, .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.input{
+    border:1px solid #999; 
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+}
+.formEdite{
+    display: flex;
+    gap: 5px;
+}
+.button{
+    border:none;
+    border-radius: 12px;
+    color:white;
+    background-color: purple;
+    padding: 5px 20px;
+}
+.button:hover{
+    background-color: rgb(243, 9, 243); 
+    cursor: pointer;
+}
+.buttonRed{
+    border:none;
+    border-radius: 12px;
+    color:white;
+    background-color: rgb(59, 0, 0);
+    padding: 5px 20px;
+}
+.buttonRed:hover{
+    background-color: rgb(234, 1, 1);
+    cursor: pointer;
+}

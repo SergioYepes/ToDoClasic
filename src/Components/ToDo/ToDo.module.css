@@ -1,0 +1,41 @@
+.Container{
+    /* border:1px solid blue; */
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin:100px auto;
+}
+@media (max-width:500px) {
+    .Container{
+        width:300px;
+    }
+}
+.CreateForm{ 
+    display: flex;
+    gap:5px;
+}
+.Input{
+    border:1px solid #999; 
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+}
+.Button{
+ border:none;
+ border-radius: 16px;
+ color:aliceblue;
+ background-color: rgb(134, 168, 40);
+ padding: 10px 20px;
+}
+.Button:hover{
+    background-color:rgb(166, 252, 235);
+    color:black;
+    cursor: pointer;
+}
+.SmallCont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
